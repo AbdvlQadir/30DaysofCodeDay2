@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AbdvlQadir.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="parent">
+    <div class="container">
+        <div class="survey">
+            <form action="processform.php" method="GET">
+                <h2 style="color:blue;">Survey Form</h2>
+                <p><strong>Let Us Know How We Can Serve You Better</strong></p>
+                <p>Dear AbdvlQadir customer, we would like you to dedicate <br>
+                    a few minutes fill out this survey. It will help us improve <br>
+                    th services we grant our cutomers. Thanks.
+                </p>
+                <div class="form-group">
+                    <label for="full_name"><b>Full name</b></label><br/>
+                    <input class="form-control" type="text" name="full_name" placeholder="Full Name"/>
+                </div>
+                <div class="form-group">
+                    <label for="email_address"><b>Email Address</b></label><br/>
+                    <input class="form-control" type="text" name="email_address" placeholder="Email Address"/>
+                </div>
+                <div class="form-group">
+                    <label for="phone_number"><b>Phone Number</b></label><br/>
+                    <input class="form-control" type="text" name="phone_number" placeholder="Phone Number"/>
+                </div>
+                <div class="form-group">
+                    <label for="period"><b>How long have you been using our software</b></label><br/>
+                    <input class="form-control" type="radio" name="period"/>Less than a month<br>
+                    <input class="form-control" type="radio" name="period"/>A year<br>
+
+                </div>
+                <div class="form-group">
+                    <label for="important"><b>What is most important to you in customer service?</b></label><br/>
+                    <input class="form-control" type="radio" name="important"/>Patience<br>
+                    <input class="form-control" type="radio" name="important"/>Chat Service<br>
+                    <input class="form-control" type="radio" name="important"/>Speed and reaction<br>
+                    <input class="form-control" type="text" name="important"/>Other<br>
+                </div>
+                <div class="form-group">
+                    <label for="satisfaction"><b>Are you satisfied with our customer service?<b></label><br/>
+                    <input class="form-control" type="radio" name="satisfaction"/>Yes<br>
+                    <input class="form-control" type="radio" name="satisfaction"/>No<br>
+                </div>
+                <div class="form-group">
+                    <label for="improve"><b>What would you improve in our software?</b></label><br/>
+                    <input class="form-control" type="text" name="improve"/><br>
+                </div>
+                <div class="form-group">
+                    <label for="recommend"><b>Would you recommend AbdvlQadir to your friends?</b></label><br/>
+                    <input class="form-control" type="radio" name="recommend"/>Absolutely<br>
+                    <input class="form-control" type="radio" name="recommend"/>Yes<br>
+                    <input class="form-control" type="radio" name="recommend"/>Maybe<br>
+                    <input class="form-control" type="radio" name="recommend"/>No<br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="how_you_heard"><b>How Did You Hear About Us?</b></label><br/>
+                    <select name="how_you_heard">
+                        <option>Click To Select</option>
+                        <option>Facebook</option>
+                        <option>Twitter</option>
+                        <option>Instagram</option>
+                        <option>Friend/Family/Coworker Referral</option>
+                        <option>Google search</option>
+                        <option>Google playstore</option>
+                        <option>Online Blog</option>
+                        <option>Local Newspaper</option>
+                        <option>At an event</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <button type="submit"><b>SUBMIT</b></button>
+
+            </form>
+        </div>
+        <div>
+        </div>
+</body>
+</html>
